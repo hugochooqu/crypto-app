@@ -1,0 +1,11 @@
+.coins img{
+    width: 50px;
+    margin: auto;
+    padding: .2rem 0;
+}
+.coins{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: space-evenly;
+}

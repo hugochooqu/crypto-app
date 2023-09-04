@@ -1,0 +1,30 @@
+.formControl{
+    text-align: center;
+    height: 30vh;
+    width: 100vw;
+    /* background-color: white; */
+    position: relative;
+}
+
+.formControl h3{
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.formControl form{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    gap: 30px;
+    left: 30% 
+}
+
+.formControl input{
+    width: 320px;
+    height: 60px;
+    
+}
+
+.formControl button{
+    height: 60px;
+}

@@ -1,0 +1,19 @@
+.download{
+    display: flex;
+    flex-direction : row; 
+    padding: 70px 30px; 
+    gap: 10px
+}
+
+.download img{
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .download h1{
+        font-size: 20px;
+    }
+    .download img{
+        width: 150px;
+    }
+}

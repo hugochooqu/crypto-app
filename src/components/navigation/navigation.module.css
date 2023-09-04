@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    padding-top: 18px;
+}
+
+li{
+    font-weight: 600;
+}
+
+.nav h1{
+    color: gold;
+    text-decoration: none;
+}

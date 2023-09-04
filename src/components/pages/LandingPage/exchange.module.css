@@ -1,0 +1,87 @@
+.exchange{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    width: 100vw;
+    
+}
+.exchange h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    /* background-color: white; */
+   
+    justify-content: space-evenly;
+    height: 150px;
+}
+
+.info h1{
+    color: gold;
+}
+
+.infoInfo{
+    display: flex;
+    flex-direction: row; 
+    gap:60px
+}
+.infoTxt{
+    padding-top: 40px;
+}
+
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 15px;  
+}
+
+button{
+    width: 150px;
+    height: 45px;
+    background-color: gold;
+    border: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .infoInfo{
+        flex-direction: column;
+    }
+
+    .infoImg{
+        display: none;
+        width: 100vw;
+        overflow: hidden;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .infoTxt{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .infoTxt h3{
+        font-size: 30px;
+    }
+
+    .infoTxt ol{
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .exchange h1{
+        font-size: 30px;
+        padding: 10px;
+    }
+}

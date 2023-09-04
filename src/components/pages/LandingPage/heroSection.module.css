@@ -1,0 +1,88 @@
+.hero{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    padding: 60px 200px 0px 200px;
+    gap: 100px;
+    /* background-color: white; */
+}
+
+.hero h1{
+    font-size: 70px;
+    margin: 0px;
+
+}
+.text{
+    width: 35vw;
+}
+.textp{
+    font-size: "18px"; 
+    font-weight: "600"
+}
+.vid{
+    width: 300px;
+    height: 500px;               ;
+}
+
+.formControl{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.formControl input{
+    height: 40px;
+    width: 250px;
+}
+
+.formControl button{
+    width: 150px;
+    background-color: gold;
+    border: 0px;
+    font-size: 15px;
+}
+
+::placeholder{
+    color: black;
+    padding-left: 10px;
+    font-size:15px ;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero{
+        flex-direction: column;
+        padding: 5px 0px;   
+        gap: 10px;
+        
+    }
+    .hero h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .text{
+        width: 100vw;
+    }
+    .textp{
+        text-align: center;
+    }
+    .vid{
+        width: 100vw;
+        height: 500px;
+        align-items: center;
+    }
+    .videoo{
+        width: 100vw;
+        overflow: hidden;
+       
+    }
+    .formControl{
+        justify-content: center;
+    }
+    .formControl input{
+        width: 200px;
+        height: 37px;
+    }
+    .formControl button{
+        height: 43px;
+    }
+}
